@@ -203,6 +203,53 @@ li {
 /*=================================
   Header styling starts here
 =================================*/
+header {
+  background: #121e37;
+  padding: 14px 0;
+}
+
+header .wrapper {
+  width: 97.29%;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.logo a {
+  color: #fff;
+}
+
+.logo-bold {
+  font-size: 18px;
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+.logo-caps {
+  text-transform: uppercase;
+}
+
+.bar {
+  text-indent: -9999px;
+  background: #fff;
+  margin: 3px 10px;
+  font-size: 0;
+  border-radius: 12px;
+  padding: 1px 7px;
+}
+
+.menu {
+  text-transform: capitalize;
+}
 
 /*=================================
   Header styling ends here
