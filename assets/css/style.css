@@ -328,6 +328,23 @@ nav {
   letter-spacing: 1px;
 }
 
+.video-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 91px 0;
+}
+
+.card-body {
+  margin: 0 2% 0 2%;
+}
+
+.card-desc {
+  background: #33414d;
+  color: rgba(151, 148, 148, 0.7);
+  padding: 35px 5%;
+}
+
 /* section 2 end */
 
 /*=================================
