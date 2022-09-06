@@ -342,6 +342,8 @@ nav {
 }
 
 .card-body {
+  border-radius: 5px;
+  overflow: hidden;
   margin: 0 2% 0 2%;
 }
 
