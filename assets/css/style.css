@@ -259,6 +259,49 @@ nav {
   main styling starts here
 =================================*/
 
+/* section 1 start */
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("https://media.istockphoto.com/photos/crowd-at-a-concert-picture-id538048132?k=20&m=538048132&s=612x612&w=0&h=kxQTvxdjO0xdgXEMJaQX-1d-KZAlvITEyIkkDZnSWec=")
+      no-repeat center center;
+  background-size: cover;
+  color: #fff;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 158px 24% 158px 24%;
+}
+
+.banner-heading {
+  font-size: 55px;
+  font-weight: bolder;
+  margin: 30px 0;
+}
+
+.banner-desc {
+  font-size: large;
+  text-align: center;
+  line-height: 35px;
+  letter-spacing: 1px;
+}
+
+.banner-btn {
+  color: #fff;
+  font-size: large;
+  font-weight: bolder;
+  text-transform: capitalize;
+  border: 2px solid rgba(151, 148, 148, 0.7);
+  border-radius: 5px;
+  margin: 36px 0;
+  padding: 15px 5%;
+}
+
+/* section 1 end */
+
 /*=================================
   main styling ends here
 =================================*/
