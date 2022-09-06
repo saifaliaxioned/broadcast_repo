@@ -467,6 +467,88 @@ nav {
   footer styling starts here
 =================================*/
 
+footer {
+  background: #020a11;
+}
+
+.foot-content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 33px 0 0 0;
+}
+
+.foot-items {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 30%;
+  margin: 40px 1.5%;
+}
+
+.foot-heading {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bolder;
+  text-transform: capitalize;
+  margin: 28px 0 35px 0;
+}
+
+.foot-links a {
+  color: rgba(255, 255, 255, 0.664);
+  display: block;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.336);
+}
+
+.foot-links:last-child a {
+  border: none;
+}
+
+.social-media {
+  padding: 25px 0 87px 0;
+  text-align: center;
+}
+.social-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-link a {
+  color: #fff;
+  text-indent: -9999px;
+}
+.social-link a::before {
+  font-family: "Font Awesome 5 Brands";
+  float: left;
+  text-indent: 0;
+}
+.social-link:nth-child(1) a::before {
+  content: "\f099";
+}
+
+.social-link:nth-child(2) a::before {
+  content: "\f39e";
+}
+
+.social-link:nth-child(3) a::before {
+  content: "\f16d";
+}
+
+.social-link:nth-child(4) a::before {
+  content: "\f2ab";
+}
+
+.copyright {
+  color: #33414d;
+  text-transform: capitalize;
+  padding: 6px 0;
+}
+.copyright span {
+  color: #fff;
+}
+.copyright span:first-of-type {
+  text-transform: uppercase;
+}
+
 /*=================================
   footer styling ends here
 =================================*/
