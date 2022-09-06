@@ -299,6 +299,12 @@ nav {
   margin: 36px 0;
   padding: 15px 5%;
 }
+.banner-btn:hover {
+  background: #fff;
+  color: #121e37;
+  border: 2px solid #fff;
+  transition: all 0.7s ease;
+}
 
 /* section 1 end */
 
@@ -307,9 +313,9 @@ nav {
 .video-sec {
   background: linear-gradient(
     120deg,
-    rgb(22, 22, 41),
-    rgb(39, 52, 73),
-    rgb(22, 22, 41)
+    rgb(10, 22, 30),
+    rgb(34, 46, 58),
+    rgb(12, 20, 31)
   );
 }
 .sec-heading {
@@ -346,6 +352,77 @@ nav {
 }
 
 /* section 2 end */
+
+/* section 3 start */
+
+.gallery-sec {
+  background: linear-gradient(
+    240deg,
+    rgb(22, 22, 41),
+    rgb(39, 52, 73),
+    rgb(22, 22, 41)
+  );
+}
+
+.gallery-sec .sec-heading {
+  text-align: left;
+}
+
+.gall-content {
+  display: flex;
+  padding-bottom: 69px;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 46%;
+  margin-top: 5px;
+}
+
+.category li {
+  /* overflow: hidden; */
+  /* width: 100%; */
+  margin: 4px;
+}
+
+.category a {
+  display: block;
+  background: #253239;
+  border-radius: 5px;
+  padding: 10px 6% 10px 6%;
+  color: rgba(151, 148, 148, 0.7);
+}
+
+.category-active,
+.category a:hover {
+  color: #fff;
+  background: #aa1ecc;
+  transition: 0.8s ease;
+}
+
+.gall-videos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 1%;
+}
+
+.gall-cards {
+  margin: 10px 1.9% 22px 1.9%;
+  flex-basis: 30%;
+}
+
+.gall-cards:nth-child(3n) {
+  margin-right: 0;
+}
+
+.gall-cards img {
+  border-radius: 4px;
+}
+
+/* section 3 end */
 
 /*=================================
   main styling ends here
