@@ -497,6 +497,12 @@ footer {
   display: block;
   padding: 10px 0;
   border-bottom: 1px solid rgba(128, 128, 128, 0.336);
+  transition: all 0.5s ease;
+}
+
+.foot-links a:hover {
+  color: #aa1ecc;
+  font-weight: bold;
 }
 
 .foot-links:last-child a {
@@ -507,15 +513,23 @@ footer {
   padding: 25px 0 87px 0;
   text-align: center;
 }
+
 .social-items {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.social-link a {
-  color: #fff;
-  text-indent: -9999px;
+
+.social-link {
+  margin: 0 0.7%;
 }
+
+.social-link a {
+  color: rgba(255, 255, 255, 0.808);
+  text-indent: -9999px;
+  font-size: 25px;
+}
+
 .social-link a::before {
   font-family: "Font Awesome 5 Brands";
   float: left;
@@ -539,11 +553,12 @@ footer {
 
 .copyright {
   color: #33414d;
+  font-size: 14px;
   text-transform: capitalize;
   padding: 6px 0;
 }
 .copyright span {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.664);
 }
 .copyright span:first-of-type {
   text-transform: uppercase;
