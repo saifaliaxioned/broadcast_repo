@@ -571,4 +571,32 @@ footer {
 /*media query starts*/
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
+  .category {
+    flex-basis: 89%;
+  }
+
+  .trend-cards {
+    flex-basis: 26%;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 6px 3.6%;
+  }
+
+  .trend-cards p {
+    padding: 21px 6%;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .banner-heading {
+    font-size: 43px;
+  }
+
+  .gall-content {
+    flex-direction: column;
+  }
+  .category {
+    flex-direction: row;
+  }
 }
